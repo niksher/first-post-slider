@@ -133,7 +133,7 @@ function firstpostslider_options() {
 
         $args  = [
             'posts_per_page' => 10
-            , "paged" => $offset
+            , "paged" => $page
         ];
         $posts = new WP_Query( $args );
         
