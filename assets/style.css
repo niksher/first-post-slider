@@ -1,0 +1,11 @@
+.fps-slide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fps__button {
+  padding: 5px 15px;
+  max-height: 35px;
+  background: #fff;
+  border: 1px solid #888;
+}
